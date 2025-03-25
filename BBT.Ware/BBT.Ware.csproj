@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>bin\Debug\net9.0\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Client">
+        <HintPath>bin\Debug\net9.0\Content.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Shared">
+        <HintPath>bin\Debug\net9.0\Content.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="JetBrains.Annotations">
+        <HintPath>bin\Debug\net9.0\JetBrains.Annotations.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Client">
+        <HintPath>bin\Debug\net9.0\Robust.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared">
+        <HintPath>bin\Debug\net9.0\Robust.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared.Maths">
+        <HintPath>bin\Debug\net9.0\Robust.Shared.Maths.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Xaml">
+        <HintPath>..\..\..\space-station-14\bin\Content.Client\Robust.Xaml.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
