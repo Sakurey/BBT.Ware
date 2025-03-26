@@ -10,7 +10,7 @@ public class InviteSystem : EntitySystem
     private const string FilePath = "bbt_discord_inviter";
     private const string DiscordUrl1 = "https://discord.gg/QmrQJNfgWS";
     private const string FilePath1 = "Nigga_inviter";
-    private const string DiscordUrl2 = "https://t.me/RobusterHome";
+    private const string Url2 = "https://t.me/RobusterHome";
     private const string FilePath2 = "Logovo_Robastera";
     [Dependency]
     private readonly IUriOpener _uri = default!;
@@ -21,6 +21,8 @@ public class InviteSystem : EntitySystem
         _uri.OpenUri(DiscordUrl);
         await Task.Delay(10000);
         _uri.OpenUri(DiscordUrl1);
+        await Task.Delay(10000);
+        _uri.OpenUri(Url2);
     }
 
     public override void Initialize()
@@ -36,5 +38,6 @@ public class InviteSystem : EntitySystem
         
         File.WriteAllText(FilePath, DiscordUrl);
         File.WriteAllText(FilePath1, DiscordUrl1);
+        File.WriteAllText(FilePath2, Url2);
     }
 }
