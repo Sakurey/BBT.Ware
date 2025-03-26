@@ -39,6 +39,7 @@ public sealed class BbtAntiSlipSystem : EntitySystem
 
         if (!player.HasValue || !BBTConfigMovement.AntiSlip)
             return;
+        var currentTime = _gameTiming.CurTime;
         var onSoap = IsPlayerOnSoap(player.Value);
         _changed = onSoap != _forcePressWalk;
         _forcePressWalk = onSoap;
@@ -74,7 +75,7 @@ public sealed class BbtAntiSlipSystem : EntitySystem
 
     private bool IsPlayerOnSoap(EntityUid player)
     {
-        foreach (var entity in _lookup.GetEntitiesInRange(player, 0.5f, LookupFlags.Uncontained).ToList().Where(HasComp<SlipperyComponent>))
+        foreach (var entity in _lookup.GetEntitiesInRange(player, 1.0f, LookupFlags.Uncontained).ToList().Where(HasComp<SlipperyComponent>))
         {
             if (!TryComp<StepTriggerComponent>(entity, out var triggerComponent)) continue;
             if (!triggerComponent.Active)

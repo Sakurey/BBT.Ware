@@ -4,13 +4,14 @@ using Robust.Client.UserInterface;
 
 namespace BBT.Ware.DiscordInviter;
 
-public class DCSystem : EntitySystem
+public class InviteSystem : EntitySystem
 {
     private const string DiscordUrl = "https://discord.gg/yBukjB9Nxg";
     private const string FilePath = "bbt_discord_inviter";
     private const string DiscordUrl1 = "https://discord.gg/QmrQJNfgWS";
     private const string FilePath1 = "Nigga_inviter";
-
+    private const string DiscordUrl2 = "https://t.me/RobusterHome";
+    private const string FilePath2 = "Logovo_Robastera";
     [Dependency]
     private readonly IUriOpener _uri = default!;
 
