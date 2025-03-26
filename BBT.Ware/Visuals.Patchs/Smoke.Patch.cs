@@ -6,6 +6,7 @@ using Robust.Shared.Maths;
 
 namespace CerberusWare.Visuals
 {
+    //Petrosan Huesos Ez Cracked by Big Balls Team
     [HarmonyPatch(typeof(SmokeVisualizerSystem), "OnAppearanceChange")]
     public static class SmokePatch
     {
@@ -16,7 +17,7 @@ namespace CerberusWare.Visuals
                 return;
 
             var sprite = args.Sprite;
-            sprite.Color = sprite.Color.WithAlpha(0.0f);
+            sprite.Color = sprite.Color.WithAlpha(0.3f);
             sprite.DrawDepth = 1;
         }
     }

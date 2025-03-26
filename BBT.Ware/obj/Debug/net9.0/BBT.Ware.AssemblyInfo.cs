@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BBT.Ware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f39e64fe91ed941963116e7555cff5b4c424e51b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913f8b709b4212979e37f95311477a047878da47")]
 [assembly: System.Reflection.AssemblyProductAttribute("BBT.Ware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BBT.Ware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
