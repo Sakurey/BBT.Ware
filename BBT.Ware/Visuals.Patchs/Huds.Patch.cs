@@ -20,7 +20,7 @@ public class BbtHealthBarSystem : LocalPlayerAddCompSystem<ShowHealthBarsCompone
     protected override ShowHealthBarsComponent CompOverride => new ShowHealthBarsComponent { DamageContainers = ["Biological", "Silicon", "Inorganic"] };
 }
 
-public sealed class ArabicaSyndicateDetectorSystem : EntitySystem
+public sealed class BBTWareDetectorSystem : EntitySystem
 {
     [Dependency] private readonly IPrototypeManager _prototype = default!;
 
