@@ -24,6 +24,3 @@ Turn on BBT. Ware in Plugins => Sideloading
 # Discords
 https://discord.gg/yBukjB9Nxg
 https://discord.gg/QmrQJNfgWS
-
-# Another Cheat
-https://github.com/noverd/ArabicaCliento
