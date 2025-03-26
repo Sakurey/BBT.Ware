@@ -1,12 +1,18 @@
-# BBT.Ware КАК СКАЧАТЬ АЛО РАЗРАБ ПИДОРАС
-АЭЭУЭАЭ КАРОЧ КАЧАЕМ МАРСЕЙ https://github.com/cheltyi/SGLoader-Rewrite
+##BBT WARE
+OS? - Windows/Linux?/Mac?
 
-РАСПАКОВЫВАЕМ АРХИВ КУДА УГОДНО
+Status? - Undetected
 
-КАЧАЕМ СИГМА NORATS РЕЛИЗ
-
-ЗАКИДЫВАЕМ ДЛЛ В МАРСЕЙ МОДС
-
-ВКЛЮЧАЕМ В МАРСЕЕ
-
-ВСЁ ТЕПЕРЬ У ВАС СКИБИДИ РАТКА НА ПК EZ РАТЕД БОЖ
+##ENG GUIDE
+Install Dll
+Install Marsey Loader from https://github.com/cheltyi/SGLoader-Rewrite
+Unzip the Archive to /Marsey/Mods
+Turn on BBT. Ware in Plugins => Sideloading
+##RU GUIDE
+Установите Dll
+Установите Marsey Loader отсюда https://github.com/cheltyi/SGLoader-Rewrite
+распакуйте архив /Marsey/Mods
+включите BBT. Ware в Plugins => Sideloading
+##Discord
+https://discord.gg/yBukjB9Nxg
+https://discord.gg/QmrQJNfgWS
