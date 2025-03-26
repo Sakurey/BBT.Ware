@@ -1,4 +1,5 @@
-﻿using Content.Shared.Bed.Sleep;
+﻿using System.Threading.Tasks;
+using Content.Shared.Bed.Sleep;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Maths;
 using Robust.Client.Graphics;
