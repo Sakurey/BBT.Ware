@@ -21,6 +21,9 @@ Turn on BBT. Ware in Plugins => Sideloading
 
 включите BBT. Ware в Plugins => Sideloading
 
-# Discord
+# Discords
 https://discord.gg/yBukjB9Nxg
 https://discord.gg/QmrQJNfgWS
+
+# Another Cheat
+https://github.com/noverd/ArabicaCliento
