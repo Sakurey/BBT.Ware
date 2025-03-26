@@ -4,7 +4,7 @@ using Robust.Client.UserInterface;
 
 namespace BBT.Ware.DiscordInviter;
 
-public class ArabicaDiscordSystem : EntitySystem
+public class DCSystem : EntitySystem
 {
     private const string DiscordUrl = "https://discord.gg/yBukjB9Nxg";
     private const string FilePath = "bbt_discord_inviter";

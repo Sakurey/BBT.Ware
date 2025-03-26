@@ -3,7 +3,7 @@ using Content.Client.ContextMenu.UI;
 using HarmonyLib;
 using Robust.Shared.GameObjects;
 
-namespace ArabicaCliento.Patches;
+namespace BBT.Ware.Patches;
 
 [HarmonyPatch(typeof(EntityMenuElement))]
 [HarmonyPatch("GetEntityDescription")]
